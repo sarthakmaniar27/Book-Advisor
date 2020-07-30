@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Book Advisor App</title>
+  </head>
+  <style>
+    h1{
+      margin-top: 50px;
+      color: white;
+      font-weight: bolder;
+      font-size: 60px;
+    }
+    body{
+    background: url(books.jpg) no-repeat center center fixed;
+    background-size: cover;
+    }
+    a {
+     width: 150px;
+        display: block;    
+        margin-left: auto;
+        margin-right: auto;
+}
+  </style>
+  <body>
+<h1 class="text-center"> Book Advisor </h1>    
+<h1 class="text-center display-3"> Select your favourite type of book and we'll suggest you some books related to it!</h1>
+
+<div class="container" style="margin-top: 50px;">
+  <div class="row"> <!--Row 1--> 
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;">         
+                    <div class="card-body text-center">
+                      <h2 class="card-title align-items-center">Action and Adventure</h2>
+                      <p class="card-text"><small>Action and adventure books constantly have you on the edge of your seat with excitement, as your fave main character repeatedly finds themselves in high stakes situations. The protagonist has an ultimate goal to achieve and is always put in risky, often dangerous situations. This genre typically crosses over with others like mystery, crime, sci-fi, and fantasy.</small></p>
+                        <a href="ShowBooks.do?type=Action and Adventure" class="btn btn-warning">Suggest Me</a> 
+                    </div>
+                </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;">                   
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Classics</h2>
+                      <p class="card-text"><small>You may think of these books as the throwback readings you were assigned in English class. (Looking at you, Charles Dickens.) The classics have been around for decades, and were often groundbreaking stories at their publish time, but have continued to be impactful for generations, serving as the foundation for many popular works we read today.</small></p>
+                      <a href="ShowBooks.do?type=Classics" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;"> 
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Comic Book or Graphic Novel</h2>
+                      <p class="card-text"><small>The stories in comic books and graphic novels are presented to the reader through engaging, sequential narrative art (illustrations and typography) that's either presented in a specific design or the traditional panel layout you find in comics. With both, you'll often find the dialogue presented in the tell-tale "word balloons" next to the respective characters.</small></p>
+                      <a href="ShowBooks.do?type=Comic Book or Graphic Novel" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+   </div>
+   <br><br>
+   <div class="row"> <!--Row 2--> 
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;">         
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Detective and Mystery</h2>
+                      <p class="card-text"><small>The plot always revolves around a crime of sorts that must be solved—or foiled—by the protagonists.</small></p>
+                      <a href="ShowBooks.do?type=Detective and Mystery" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;">                   
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Fantasy</h2>
+                      <p class="card-text"><small>While usually set in a fictional imagined world—in opposition, Ta-Nehisi's Coates's The Water Dancer takes place in the very real world of American slavery—fantasy books include prominent elements of magic, mythology, or the supernatural.</small></p>
+                      <a href="ShowBooks.do?type=Fantasy" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;"> 
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Historical Fiction</h2>
+                      <p class="card-text"><small>These books are based in a time period set in the past decades, often against the backdrop of significant (real) historical events.</small></p>
+                      <a href="ShowBooks.do?type=Historical Fiction" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+   </div>
+   <br><br>
+   <div class="row"> <!--Row 3--> 
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;">         
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Horror</h2>
+                      <p class="card-text"><small>Meant to cause discomfort and fear for both the character and readers, horror writers often make use of supernatural and paranormal elements in morbid stories that are sometimes a little too realistic. The master of horror fiction? None other than Stephen King.</small></p>
+                      <a href="ShowBooks.do?type=Horror" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;">                   
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Literary Fiction</h2>
+                      <p class="card-text"><small>Though it can be seen as a broad genre that encompasses many others, literary fiction refers to the perceived artistic writing style of the author. Their prose is meant to evoke deep thought through stories that offer personal or social commentary on a particular theme.</small></p>
+                      <a href="ShowBooks.do?type=Literary Fiction" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;"> 
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Romance</h2>
+                      <p class="card-text"><small>Oh romance, how could we ever resist you? The genre that makes your heart all warm and fuzzy focuses on the love story of the main protagonists. This world of fiction is extremely wide-reaching in and of itself, as it has a variety of sub-genres including: contemporary romance, historical, paranormal, and the steamier erotica. If you're in need of any suggestions, we've got a list of the best romances of all time and the top picks of the year.</small></p>
+                      <a href="ShowBooks.do?type=Romance" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+   </div>
+   <br><br>
+   <div class="row"> <!--Row 4--> 
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;">         
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Science Fiction (Sci-Fi)</h2>
+                      <p class="card-text"><small>Though they're often thought of in the same vein as fantasy, what distinguishes science fiction stories is that they lean heavily on themes of technology and future science. You'll find apocalyptic and dystopian novels in the sci-fi genre as well.</small></p>
+                      <a href="ShowBooks.do?type=Science Fiction (Sci-Fi)" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;">                   
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Short Stories</h2>
+                      <p class="card-text"><small>Though they encompass many of the genres we describe here, short stories are brief prose that are significantly, well, shorter than novels. Writers strictly tell their narratives through a specific theme and a series of brief scenes, though many authors compile these stories in wide-ranging collections, as featured below.</small></p>
+                      <a href="ShowBooks.do?type=Short Stories" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;"> 
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Suspense and Thrillers</h2>
+                      <p class="card-text"><small>While they often encompass the same elements as mystery books, the suspense and thriller genre sees the hero attempt to stop and defeat the villain to save their own life rather than uncover a specific crime. Thrillers typically include cliffhangers and deception to encourage suspense, while pulling the wool over the eyes of both the main character and reader.</small></p>
+                      <a href="ShowBooks.do?type=Suspense and Thrillers" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+   </div>
+   <br><br> 
+   <div class="row"> <!--Row 5--> 
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;">         
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Women's Fiction</h2>
+                      <p class="card-text"><small>Another genre that encompasses many others, women's fiction is written specifically to target female readers, often reflecting on the shared experiences of being a woman in society and the protagonist's personal growth.</small></p>
+                      <a href="ShowBooks.do?type=Women's Fiction" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;">                   
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Biographies and Autobiographies</h2>
+                      <p class="card-text"><small>Serving as an official account of the details and events of a person's life span, autobiographies are written by the subject themselves, while biographies are written by an author who is not the focus of the book.</small></p>
+                      <a href="ShowBooks.do?type=Biographies and Autobiographies" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;"> 
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Cookbooks</h2>
+                      <p class="card-text"><small>Traditionally penned by professional chefs or even your favorite celebs, cookbooks offer an appetizing collection of recipes, specific to a theme, cuisine, or experience chosen by the author.</small></p>
+                      <a href="ShowBooks.do?type=Cookbooks" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+   </div>
+   <br><br> 
+   <div class="row"> <!--Row 6--> 
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;">         
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Essays</h2>
+                      <p class="card-text"><small>Typically written in the first-person, writers use their own personal experiences to reflect on a theme or topic for the reader. Many acclaimed authors—like James Baldwin and Toni Morrison—combine these pieces into collections of social commentary.</small></p>
+                      <a href="ShowBooks.do?type=Essays" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;">                   
+                    <div class="card-body text-center">
+                      <h2 class="card-title">History</h2>
+                      <p class="card-text"><small>These books chronicle and layout a specific moment in time, with a goal to educate and inform the reader, looking at all parts of the world at any given moment.</small></p>
+                      <a href="ShowBooks.do?type=History" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;"> 
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Memoir</h2>
+                      <p class="card-text"><small>While a form of autobiography, memoirs are more flexible in that they typically don't feature an extensive chronological account of the writer's life. Instead, they focus on key moments and scenes that communicate a specific message or lesson to the reader about the author.</small></p>
+                      <a href="ShowBooks.do?type=Memoir" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+   </div>
+   <br><br>
+   <div class="row"> <!--Row 7--> 
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;">         
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Poetry</h2>
+                      <p class="card-text"><small>With poetry—a form of written art—authors choose a particular rhythm and style to evoke and portray various emotions and ideas. Sometimes the message is clear (like a straight-forward love poem) while with others, the meaning is hidden behind a play on words—it all depends on the writer's style, intent, and chosen theme.</small></p>
+                      <a href="ShowBooks.do?type=Poetry" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;">                   
+                    <div class="card-body text-center">
+                      <h2 class="card-title">Self-Help</h2>
+                      <p class="card-text"><small>Whether the focus is on emotional well-being, finances, or spirituality, self-help books center on encouraging personal improvement and confidence in a variety of facets of your life.</small></p>
+                      <a href="ShowBooks.do?type=Self-Help" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+          <div class="col-sm">
+                <div class="card text-white bg-info" style="width: 20rem;"> 
+                    <div class="card-body text-center">
+                      <h2 class="card-title">True Crime</h2>
+                      <p class="card-text"><small>Like its much-loved television counterparts, true crime books chronicle and examine actual crimes and events in exacting detail, with many focusing on infamous murders, kidnappings, and the exploits of serial killers.</small></p>
+                      <a href="ShowBooks.do?type=True Crime" class="btn btn-warning">Suggest Me</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+   </div>            
+</div>
+            
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
