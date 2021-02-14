@@ -14,6 +14,7 @@
           <release>14</release>
         </configuration>
       </plugin>
+      
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.2.3</version>
@@ -21,6 +22,33 @@
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
       </plugin>
+      
+      <plugin>
+        <groupId>com.heroku.sdk</groupId>
+        <artifactId>heroku-maven-plugin</artifactId>
+        <version>3.0.3</version>
+        
+        
+        <configuration>
+        	<appName>bookadvisor3</appName>
+        </configuration>
+      </plugin>
+      
     </plugins>
   </build>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.apple</groupId>
+  		<artifactId>AppleJavaExtensions</artifactId>
+  		<version>1.4</version>
+  	</dependency>
+  	<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.8.1</version>
+	</dependency>
+  
+  </dependencies>
+  
+  
 </project>

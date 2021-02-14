@@ -2,6 +2,7 @@ package com.books.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.sql.*;
 
 public class BookExpert {
 	public List<String> cardText;
@@ -13,10 +14,10 @@ public class BookExpert {
 		cardText = new ArrayList<String>();
 		imagePath = new ArrayList<String>();
 		shopPath = new ArrayList<String>();
-		
+ 						
 		if(bookType.equals("Action and Adventure"))
 		{
-			books.add("Life of Pi");
+			books.add("Life Of Pie");
 			books.add("The Three Musketeers");
 			books.add("The Call of the Wild");
 			
@@ -395,6 +396,8 @@ public class BookExpert {
 		else {
 			return books;
 		}
+//		con.close();  
+//		}catch(Exception e){ System.out.println(e);}
 		
 		return books;
 	}
